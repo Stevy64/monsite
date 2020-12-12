@@ -1,1 +1,7 @@
-monsite.boubalasteevy.fr
+# monsite.boubalasteevy.fr
+
+$ dig monsite.boubalasteevy.fr +nostats +nocomments +nocmd
+    > ;monsite.boubalasteevy.fr.                     IN      A
+    > monsite.boubalasteevy.fr.              3592    IN      CNAME   stevy64.github.io.
+    > stevy64.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
+    >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
